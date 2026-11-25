@@ -1,0 +1,9 @@
+[project]
+name = "keitaro-wrapper"
+version = "0.1.0"
+description = "Local drafts and explicit publication for Keitaro campaigns"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

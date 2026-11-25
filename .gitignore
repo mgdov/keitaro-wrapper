@@ -1,0 +1,16 @@
+.venv/
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+__pycache__/
+.pytest_cache/
+*.egg-info/
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+work/
+outputs/
+.DS_Store
